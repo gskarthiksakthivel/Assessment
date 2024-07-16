@@ -2,10 +2,9 @@ version: 0.2
 
 env:
   variables:
-    AWS_REGION: "us-east-1"
+    AWS_REGION: "eu-north-1"
     ECR_REPOSITORY: "frontend-service"
     IMAGE_TAG: "latest"
-    AWS_ACCOUNT_ID: "your-aws-account-id"
 phases:
   pre_build:
     commands:
